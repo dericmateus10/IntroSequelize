@@ -7,7 +7,7 @@ module.exports = {
             attributes: ['name', 'email'],
             where: {
                 email: {
-                    [Op.iLike]: '%@gmail.com'
+                    [Op.like]: '%@gmail.com'
                 }
             },
 
@@ -18,7 +18,7 @@ module.exports = {
                     required: false,
                     where: {
                         name: {
-                            [Op.iLike]: 'React%'
+                            [Op.like]: 'React%'
                         }
                     }
                 },

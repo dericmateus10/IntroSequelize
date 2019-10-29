@@ -1,8 +1,8 @@
 module.exports = {
-    dialect: 'postgres',
+    dialect: 'mysql',
     host: 'localhost',
-    username: 'postgres',
-    password: '1597',
+    username: 'root',
+    password: '',
     database: 'sequelize',
     define: {
         timestamp: true,
