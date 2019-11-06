@@ -1,7 +1,7 @@
 module.exports = {
     dialect: 'mysql',
     host: 'localhost',
-    username: 'root',
+    username: '',
     password: '',
     database: 'sequelize',
     define: {
